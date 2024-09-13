@@ -5,3 +5,5 @@
 function myFunction(arr) {
   return arr.every((val, i, arr) => val === arr[0]);
 }
+
+console.log(myFunction([1, 1, 1, 1])); // true
