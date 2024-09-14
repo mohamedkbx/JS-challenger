@@ -8,5 +8,8 @@ function myFunction(...arrays) {
 }
 
 //author solution
+function myFunction(...arrays) {
+  return arrays.flat();
+}
 
 myFunction([1, 2, 3], [4, 5, 6]);
