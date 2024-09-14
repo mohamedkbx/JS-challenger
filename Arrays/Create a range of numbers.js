@@ -8,3 +8,15 @@ function myFunction(min, max) {
 
 //test case
 console.log(myFunction(2, 8)); // [2, 3, 4, 5, 6, 7, 8]
+
+//another solution
+function createRange(min, max) {
+  let result = [];
+  for (let i = min; i <= max; i++) {
+    result.push(i);
+  }
+  return result;
+}
+
+// Test case
+console.log(createRange(3, 7)); // Output: [3, 4, 5, 6, 7]
